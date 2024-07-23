@@ -20,29 +20,25 @@
         }
         header {
             width: 100%;
-            background-color: #4CAF50;
+            height: 200px;
+            background: url('https://png.pngtree.com/background/20220724/original/pngtree-cyan-background-high-quality-wallpaper-victor-blue-yellow-free-picture-image_1742394.jpg') no-repeat center center;
+            background-size: cover;
             color: white;
-            padding: 10px 0;
-            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         .container {
             width: 90%;
             max-width: 800px;
-            height: calc(100% - 60px); /* Ajustar altura com o cabeçalho */
+            height: calc(100% - 200px); /* Ajustar altura com o cabeçalho */
             background: #fff;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
             overflow: hidden;
             display: flex;
             flex-direction: column;
-        }
-        .header-image {
-            width: 100%;
-            height: 200px;
-            background: url('https://png.pngtree.com/background/20220724/original/pngtree-cyan-background-high-quality-wallpaper-victor-blue-yellow-free-picture-image_1742394.jpg') no-repeat center center;
-            background-size: cover;
-            flex-shrink: 0;
         }
         h1 {
             font-size: 24px;
@@ -62,7 +58,6 @@
         <h2>Meu Site</h2>
     </header>
     <div class="container">
-        <div class="header-image"></div>
         <h1>Preencha o Formulário Abaixo</h1>
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScLeeKbMkIUyVYEpu9eCkB-4vK_ivJaka3tjmIrbWDbdbTLoQ/viewform?embedded=true">Carregando…</iframe>
     </div>
